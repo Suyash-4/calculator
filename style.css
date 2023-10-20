@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Hammersmith+One&family=Hepta+Slab:wght@500&family=Hind+Madurai&family=Numans&family=Open+Sans:wght@300&family=PT+Sans&family=Pixelify+Sans&family=Poppins:wght@300&family=Quicksand:wght@600&family=Raleway:ital,wght@0,300;0,400;1,100&family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Hepta Slab', serif;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Numans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body,
+html {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 18, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(52, 26, 26);
+    width: 25%;
+    border: 4px solid rgb(247, 7, 7);
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    box-sizing: content-box;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.input-display {
+    background: transparent;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+    /* Add some space between the input and buttons */
+}
+
+/*spacing in rows*/
+._0throw,
+._1strow,
+._2ndrow,
+._3rdrow,
+._4throw {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.calc-button {
+    border: 2px solid rgb(80, 76, 76);
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    box-shadow: 3px 5px 9px black;
+}
+
+.calc-button:hover {
+    background-color: rgb(128, 59, 59);
+}
+
+.operator {
+    background-color: rgb(40, 40, 40);
+}
+
+.operator:hover {
+    background-color: rgb(128, 59, 59);
+}
